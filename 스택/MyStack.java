@@ -29,20 +29,20 @@ public class MyStack<E> {
 	}
 	
 	
-	public static void main(String[] args) {
-		MyStack<Integer> s = new MyStack<Integer>();
+	// public static void main(String[] args) {
+	// 	MyStack<Integer> s = new MyStack<Integer>();
 		
-		s.push(1);
-		s.push(2);
-		while(!s.isEmpty()) {
-			System.out.println(s.peek());
-			System.out.println(s.pop());
-			System.out.println(s.pop());
+	// 	s.push(1);
+	// 	s.push(2);
+	// 	while(!s.isEmpty()) {
+	// 		System.out.println(s.peek());
+	// 		System.out.println(s.pop());
+	// 		System.out.println(s.pop());
 				
-		}
+	// 	}
 		
 		
 		
-	}
+	// }
 
 }
